@@ -18,6 +18,7 @@ class Solution {
         }
         return res == Integer.MAX_VALUE ? 0:res;
     }
+}
 
 /* Logic:
     * 1. Initialize two pointers, left and right, to represent the start and end of the sliding window.

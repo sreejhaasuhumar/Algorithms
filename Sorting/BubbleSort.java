@@ -5,7 +5,7 @@
  * * The pass through the list is repeated until the list is sorted.
 */
 
- public class Solution {
+ public class BubbleSort {
     public void bubbleSort(int[] arr) {
         // Mutates arr so that it is sorted via swapping adjacent elements until
         // the arr is sorted.
