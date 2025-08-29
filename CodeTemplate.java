@@ -1,4 +1,5 @@
-Two pointers: one input, opposite ends
+//Two pointers: one input, opposite ends
+
 
 public int fn(int[] arr) {
     int left = 0;
@@ -16,8 +17,8 @@ public int fn(int[] arr) {
 
     return ans;
 }
-=======================
-Two pointers: two inputs, exhaust both
+//=======================
+//Two pointers: two inputs, exhaust both
 
 public int fn(int[] arr1, int[] arr2) {
     int i = 0, j = 0, ans = 0;
@@ -43,8 +44,8 @@ public int fn(int[] arr1, int[] arr2) {
 
     return ans;
 }
-=======================
-Sliding window
+//=======================
+//Sliding window
 
 public int fn(int[] arr) {
     int left = 0, ans = 0, curr = 0;
@@ -62,4 +63,4 @@ public int fn(int[] arr) {
 
     return ans;
 }
-=======================
+//=======================

@@ -7,8 +7,11 @@
  * Output: [0,1]
  */
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
 
-public class Main {
+public class TwoSum {
     public static void main(String[] args) {
         Solution solution = new Solution();
         int[] nums = {2, 7, 11, 15};
