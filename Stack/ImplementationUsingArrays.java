@@ -1,6 +1,8 @@
-// Stack implementation in Java
+package Stack;// Stack implementation in Java
 
-class Stack {
+import java.util.Stack;
+
+class ImplementationUsingArrays {
 
   // store elements of stack
   private int arr[];
@@ -10,7 +12,7 @@ class Stack {
   private int capacity;
 
   // Creating a stack
-  Stack(int size) {
+  void Stack(int size) {
     // initialize the array
     // initialize the stack variables
     arr = new int[size];
@@ -67,22 +69,5 @@ class Stack {
     for (int i = 0; i <= top; i++) {
       System.out.print(arr[i] + ", ");
     }
-  }
-
-  public static void main(String[] args) {
-    Stack stack = new Stack(5);
-
-    stack.push(1);
-    stack.push(2);
-    stack.push(3);
-
-    System.out.print("Stack: ");
-    stack.printStack();
-
-    // remove element from stack
-    stack.pop();
-    System.out.println("\nAfter popping out");
-    stack.printStack();
-
   }
 }

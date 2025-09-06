@@ -1,4 +1,4 @@
-//Quicksort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays.
+package Sorting;//Quicksort is a highly efficient sorting algorithm and is based on partitioning of array of data into smaller arrays.
 
 /*
  * Quick Sort Algorithm

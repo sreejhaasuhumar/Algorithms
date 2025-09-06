@@ -1,4 +1,4 @@
-/*
+package Sorting;/*
  * Selection Sort Algorithm
  * This code implements the Selection Sort algorithm, which sorts an array of integers in ascending order. 
  * Selection Sort works by repeatedly finding the minimum element from the unsorted part of the array and swapping it with the first unsorted element.

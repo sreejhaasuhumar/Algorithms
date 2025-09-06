@@ -1,4 +1,4 @@
-/*
+package Sorting;/*
  * Insertion Sort Algorithm
  * This code implements the Insertion Sort algorithm, which sorts an array of integers in ascending order.
  * Insertion Sort works by building a sorted array one element at a time, by repeatedly taking the next element and inserting it into the correct position in the already sorted part of the array.

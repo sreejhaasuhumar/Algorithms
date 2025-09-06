@@ -1,4 +1,4 @@
-/*
+package Sorting;/*
  * Merge Sort Algorithm
  * This code implements the Merge Sort algorithm, which sorts an array of integers in ascending order.
  * Merge Sort works by recursively dividing the array into two halves, sorting each half, and then merging the sorted halves back together.

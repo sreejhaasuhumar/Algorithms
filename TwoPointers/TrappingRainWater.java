@@ -1,3 +1,5 @@
+package TwoPointers;
+
 public class TrappingRainWater {
     public int trap(int[] height) {
         int left = 0;

@@ -1,4 +1,4 @@
-/*
+package Sorting;/*
  * Bubble Sort Implementation in Java
  * This code implements the Bubble Sort algorithm, which sorts an array of integers in ascending order.
  * * Bubble Sort works by repeatedly stepping through the list, comparing adjacent elements and swapping them if they are in the wrong order.

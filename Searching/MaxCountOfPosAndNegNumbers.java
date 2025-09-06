@@ -1,4 +1,4 @@
-/*
+package Searching;/*
  * Given an integer array nums sorted in non-decreasing order, return the maximum of the count of positive numbers and the count of negative numbers in nums.
  * If there are no positive numbers, return 0. If there are no negative numbers, return 0.
  * Example 1:
@@ -6,7 +6,7 @@
  * Output: 3
  */
 
-class Solution {
+class MaxCountOfPosAndNegNumbers {
     public int maximumCount(int[] nums) {
         int positiveCount = nums.length - upperBound(nums);
         int negativeCount = lowerBound(nums);
