@@ -1,6 +1,5 @@
 package Stack;// Stack implementation in Java
 
-import java.util.Stack;
 
 class ImplementationUsingArrays {
 
