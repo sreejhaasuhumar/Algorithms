@@ -25,7 +25,7 @@ public class DfsOfDisconnectedGraph {
         boolean[] visited = new boolean[V];
         for (int i = 0; i < adj.size(); i++) {
             if (!visited[i]) {
-                 dfsRecursive(adj, 0, dfs, visited);
+                 dfsRecursive(adj, i, dfs, visited);
             }
         }
         return dfs;
